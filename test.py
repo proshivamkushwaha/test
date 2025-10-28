@@ -1,6 +1,7 @@
 from tkinter import *
 expr = ""  # Global expression string
 
+
 def press(key):
     global expr
     expr += str(key)
